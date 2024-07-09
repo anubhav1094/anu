@@ -1,0 +1,147 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    min-height: 100vh;
+    width: 100%;
+}
+.top{
+    min-height: 60vh;
+    width: 100%;
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs/16232.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+}
+
+
+
+.top .overlay{
+    position: relative;
+    width: 100%;
+    min-height: inherit;
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+.text{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+    padding: 10vh;
+    color:thistle;
+    bottom: 5%;
+}
+.text h1{
+    font-weight: 600;
+    font-size: 4vw;
+}
+
+.text .image{
+   background-image: url(https://4kwallpapers.com/images/walls/thumbs/16257.jpg); 
+   background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    width: 220px;
+    height: 300px;
+}
+
+.rtext{
+    display: flex;
+    width: 25%;
+    align-items: center;
+    justify-content: space-between;
+}
+.rtext p{
+    font-size: 12px;
+}
+
+.bottom{
+    display: flex;
+    width: 100%;
+    min-height: 40vh;
+}
+.b1{
+    width: 30%;
+    min-height: inherit;
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs/16232.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.b1 h1{
+    text-align: center;
+    padding: 30px;
+}
+
+.b1 p{
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.b2{
+    width: 30%;
+    min-height: inherit;
+    display: flex;
+    flex-direction: column;
+
+}
+.b2 .up{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs/16235.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.b2 .up h1{
+    text-align: center;
+    padding: 30px;
+}
+.b2 .up p{
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+.b2 .down{
+    width: 100%;
+    min-height: 20vh;
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs/15613.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.b2.down.overlay{
+    position: relative;
+    width: 100%;
+    min-height: 20vh;
+}
+
+.b3{
+    width: 40%;
+    min-height: inherit;
+    background-image: url(https://4kwallpapers.com/images/walls/thumbs/14707.jpg);
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+.b1 .overlay{
+    justify-content: right;
+    position: relative;
+    margin-left: 50%;
+    width: 50%;
+    height: 100%;
+    padding: 4vw 3vh;
+}
+.b3 .overlay p{
+   padding: 1.2vh;
+   color: white;
+}
